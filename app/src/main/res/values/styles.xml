@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="CustomHintStyle" parent="TextAppearance.MaterialComponents.Caption">
+        <item name="android:paddingStart">48dp</item> <!-- Adjust based on icon size -->
+    </style>
+</resources>
