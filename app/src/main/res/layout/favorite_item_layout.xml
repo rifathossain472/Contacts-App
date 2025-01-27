@@ -50,40 +50,18 @@
 
         <ImageView
             android:background="@drawable/background"
-            android:id="@+id/deleteIv"
-            android:padding="6dp"
-            android:layout_width="30dp"
-            android:layout_height="30dp"
-            android:layout_marginEnd="4dp"
-            android:src="@drawable/baseline_delete_24"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintTop_toTopOf="parent" />
-
-        <ImageView
-            android:background="@drawable/background"
-            android:id="@+id/favoriteIv"
-            android:padding="4dp"
-            android:layout_width="30dp"
-            android:layout_height="30dp"
-            android:layout_marginEnd="12dp"
-            android:src="@drawable/baseline_favorite_border_24"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintEnd_toStartOf="@id/deleteIv"
-            app:layout_constraintTop_toTopOf="parent"
-            app:tint="@color/black" />
-
-        <ImageView
-            android:background="@drawable/background"
             android:id="@+id/callIv"
             android:padding="6dp"
             android:layout_width="30dp"
             android:layout_height="30dp"
-            android:layout_marginEnd="12dp"
+            android:layout_marginEnd="16dp"
             android:src="@drawable/baseline_call_24"
             app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintEnd_toStartOf="@id/favoriteIv"
-            app:layout_constraintTop_toTopOf="parent" />
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            />
+
+
 
 
     </androidx.constraintlayout.widget.ConstraintLayout>

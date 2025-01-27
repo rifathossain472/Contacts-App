@@ -32,7 +32,7 @@ class AddContactActivity : AppCompatActivity() {
             val mobile = binding.etMobile.text.toString()
             val address = binding.etAddress.text.toString()
             val contact = Contacts(0,name, email, mobile, address, "https://i.namu.wiki/i/ug032Kpr0TE1IqspQ5rWs7aYg7FTd8NvohQtfLfPz99zmRLGZPKSu1Hj43SbG36K6MEOR6SNotVDl0qP0MRRvg.webp")
-            contactDao.getAddContact(contact)
+            contactDao.insertContact(contact)
             val mainActivityIntent = Intent(this@AddContactActivity, MainActivity::class.java)
             startActivity(mainActivityIntent)
         }
